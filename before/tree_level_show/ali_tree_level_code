@@ -1,0 +1,56 @@
+Given a binary tree, print it out in the following format:
+1) level by level;
+2) each level in a separated line;
+3) zig-zag, one level is from the left to the right, the next level is from the right to
+the left.
+               A
+       B                 C
+   D         E      F       G
+H      I   J    K      L        M
+
+Sample output:
+
+ A\n
+ C B\n
+ D E F G\n
+ M L K J I H\n
+ 
+ struct Node {
+     Node*left, *right;
+     char val; 
+};
+ 
+void PrintTree(const Node* root)
+{
+    Stack s1, s2;
+    s1.push(root);
+    while(s1.size() > 0) {
+        int len1 = s1.size();
+        while(len1 > 0) {
+            Node* node = s1.pop();
+            cout <<node->val;
+            if (node->left != NULL) {
+                s2.push(node->left);
+            }
+            if (node->right != NULL) {
+                s2.push(node->right);
+            }
+            len1--;
+        }
+        cout << endl;
+        int len2 = s2.size();
+        while(len2 > 0) {
+            Node* node = s2.pop();
+            cout << node->val;
+            if (node->right != NULL) {
+                s1.push(node->right);
+            }
+            if (node->left != NULL) {
+                s1.push(node->left);
+            }
+            len2--;
+        }
+        cout << endl;
+        
+    }
+}

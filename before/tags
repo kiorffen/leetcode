@@ -1,0 +1,177 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	class_size/main.cc	/^class A {$/;"	c	file:
+A	inherit/main.cpp	/^class A {$/;"	c	file:
+A::a	class_size/main.cc	/^    int a;$/;"	m	class:A	file:	access:private
+A::b	class_size/main.cc	/^    static int b;$/;"	m	class:A	file:	access:private
+A::c	class_size/main.cc	/^    char c;$/;"	m	class:A	file:	access:private
+A::d	class_size/main.cc	/^    int d;$/;"	m	class:A	file:	access:private
+A::func	class_size/main.cc	/^    virtual int func(){}$/;"	f	class:A	file:	access:private	signature:()
+A::func1	class_size/main.cc	/^    virtual int func1(){}$/;"	f	class:A	file:	access:private	signature:()
+A::func2	class_size/main.cc	/^    virtual int func2(){}$/;"	f	class:A	file:	access:private	signature:()
+A::func3	class_size/main.cc	/^    static int func3() {$/;"	f	class:A	file:	access:private	signature:()
+A::test	inherit/main.cpp	/^    void test() {$/;"	f	class:A	access:public	signature:()
+A::~A	class_size/main.cc	/^    ~A(){};$/;"	f	class:A	file:	access:private	signature:()
+B	inherit/main.cpp	/^class B : public A {$/;"	c	file:	inherits:A
+B::test	inherit/main.cpp	/^    void test() {$/;"	f	class:B	access:public	signature:()
+Interval	leetcode56/main.cpp	/^    Interval() : start(0), end(0) {}$/;"	f	struct:Interval	access:public	signature:()
+Interval	leetcode56/main.cpp	/^    Interval(int s, int e) : start(s), end(e) {}$/;"	f	struct:Interval	access:public	signature:(int s, int e)
+Interval	leetcode56/main.cpp	/^struct Interval {$/;"	s	file:
+Interval::Interval	leetcode56/main.cpp	/^    Interval() : start(0), end(0) {}$/;"	f	struct:Interval	access:public	signature:()
+Interval::Interval	leetcode56/main.cpp	/^    Interval(int s, int e) : start(s), end(e) {}$/;"	f	struct:Interval	access:public	signature:(int s, int e)
+Interval::end	leetcode56/main.cpp	/^    int end;$/;"	m	struct:Interval	file:	access:public
+Interval::start	leetcode56/main.cpp	/^    int start;$/;"	m	struct:Interval	file:	access:public
+ListNode	leetcode19/main.cpp	/^    ListNode(int x) : val(x), next(NULL) {}$/;"	f	struct:ListNode	access:public	signature:(int x)
+ListNode	leetcode19/main.cpp	/^struct ListNode {$/;"	s	file:
+ListNode::ListNode	leetcode19/main.cpp	/^    ListNode(int x) : val(x), next(NULL) {}$/;"	f	struct:ListNode	access:public	signature:(int x)
+ListNode::next	leetcode19/main.cpp	/^    ListNode *next;$/;"	m	struct:ListNode	file:	access:public
+ListNode::val	leetcode19/main.cpp	/^    int val;$/;"	m	struct:ListNode	file:	access:public
+MAX_INT	leetcode29/main.cpp	19;"	d	file:
+Node	tree_level_show/main.cpp	/^struct Node {$/;"	s	file:
+Node::left	tree_level_show/main.cpp	/^     Node*left, *right;$/;"	m	struct:Node	file:	access:public
+Node::right	tree_level_show/main.cpp	/^     Node*left, *right;$/;"	m	struct:Node	file:	access:public
+Node::val	tree_level_show/main.cpp	/^     char val; $/;"	m	struct:Node	file:	access:public
+PrintTree	tree_level_show/main.cpp	/^void PrintTree(const Node* root)$/;"	f	signature:(const Node* root)
+Solution	leetcode11/main.cpp	/^class Solution {$/;"	c	file:
+Solution	leetcode14/main.cpp	/^class Solution {$/;"	c	file:
+Solution	leetcode15/main.cpp	/^class Solution {$/;"	c	file:
+Solution	leetcode16/main.cpp	/^class Solution {$/;"	c	file:
+Solution	leetcode19/main.cpp	/^class Solution {$/;"	c	file:
+Solution	leetcode20/main.cpp	/^class Solution {$/;"	c	file:
+Solution	leetcode22/main.cpp	/^class Solution {$/;"	c	file:
+Solution	leetcode26/main.cpp	/^class Solution {$/;"	c	file:
+Solution	leetcode27/main.cpp	/^class Solution {$/;"	c	file:
+Solution	leetcode28/main.cpp	/^class Solution {$/;"	c	file:
+Solution	leetcode29/main.cpp	/^class Solution {$/;"	c	file:
+Solution	leetcode33/main.cpp	/^class Solution {$/;"	c	file:
+Solution	leetcode34/main.cpp	/^class Solution {$/;"	c	file:
+Solution	leetcode4/main.cc	/^class Solution {$/;"	c	file:
+Solution	leetcode46/main.cpp	/^class Solution {$/;"	c	file:
+Solution	leetcode53/main.cpp	/^class Solution {$/;"	c	file:
+Solution	leetcode54/main.cpp	/^class Solution {$/;"	c	file:
+Solution	leetcode56/main.cpp	/^class Solution {$/;"	c	file:
+Solution	leetcode9/palindrome_number.cpp	/^class Solution {$/;"	c	file:
+Solution::divide	leetcode29/main.cpp	/^    int divide(int dividend, int divisor) {$/;"	f	class:Solution	access:public	signature:(int dividend, int divisor)
+Solution::findKth	leetcode4/main.cc	/^    double findKth(vector<int>& nums1, int s1, int e1,$/;"	f	class:Solution	file:	access:private	signature:(vector<int>& nums1, int s1, int e1, vector<int>& nums2, int s2, int e2, int k)
+Solution::findMedianSortedArrays	leetcode4/main.cc	/^    double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums1, vector<int>& nums2)
+Solution::generateParenthesis	leetcode22/main.cpp	/^    vector<string> generateParenthesis(int n) {$/;"	f	class:Solution	access:public	signature:(int n)
+Solution::generateParenthesis	leetcode22/main.cpp	/^    void generateParenthesis(int left, int right, string s, vector<string>& res) {$/;"	f	class:Solution	access:public	signature:(int left, int right, string s, vector<string>& res)
+Solution::isPalindrome	leetcode9/palindrome_number.cpp	/^        bool isPalindrome(int x) {$/;"	f	class:Solution	access:public	signature:(int x)
+Solution::isValid	leetcode20/main.cpp	/^    bool isValid(string s) {$/;"	f	class:Solution	access:public	signature:(string s)
+Solution::longestCommonPrefix	leetcode14/main.cpp	/^        string longestCommonPrefix(vector<string>& strs) {$/;"	f	class:Solution	access:public	signature:(vector<string>& strs)
+Solution::maxArea	leetcode11/main.cpp	/^        int maxArea(vector<int>& height) {$/;"	f	class:Solution	access:public	signature:(vector<int>& height)
+Solution::maxSubArray	leetcode53/main.cpp	/^    int maxSubArray(vector<int>& nums) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums)
+Solution::merge	leetcode56/main.cpp	/^    vector<Interval> merge(vector<Interval>& intervals) {$/;"	f	class:Solution	access:public	signature:(vector<Interval>& intervals)
+Solution::permute	leetcode46/main.cpp	/^    vector<vector<int> > permute(vector<int>& nums) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums)
+Solution::permute	leetcode46/main.cpp	/^    void permute(vector<int> nums, vector<int> curr, vector<vector<int> >& res) {$/;"	f	class:Solution	access:public	signature:(vector<int> nums, vector<int> curr, vector<vector<int> >& res)
+Solution::removeDuplicates	leetcode26/main.cpp	/^    int removeDuplicates(vector<int>& nums) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums)
+Solution::removeElement	leetcode27/main.cpp	/^    int removeElement(vector<int>& A, int elem) {$/;"	f	class:Solution	access:public	signature:(vector<int>& A, int elem)
+Solution::removeNthFromEnd	leetcode19/main.cpp	/^    ListNode* removeNthFromEnd(ListNode* head, int n) {$/;"	f	class:Solution	access:public	signature:(ListNode* head, int n)
+Solution::search	leetcode33/main.cpp	/^    int search(vector<int>& nums, int target) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums, int target)
+Solution::searchRange	leetcode34/main.cpp	/^    vector<int> searchRange(vector<int>& nums, int target) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums, int target)
+Solution::spiralOrder	leetcode54/main.cpp	/^    vector<int> spiralOrder(vector<vector<int>>& matrix) {$/;"	f	class:Solution	access:public	signature:(vector<vector<int>>& matrix)
+Solution::strStr	leetcode28/main.cpp	/^    int strStr(string haystack, string needle) {   $/;"	f	class:Solution	access:public	signature:(string haystack, string needle)
+Solution::threeSum	leetcode15/main.cpp	/^        vector<vector<int> > threeSum(vector<int>& nums) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums)
+Solution::threeSumClosest	leetcode16/main.cpp	/^        int threeSumClosest(vector<int>& nums, int target) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums, int target)
+a	class_size/main.cc	/^    int a;$/;"	m	class:A	file:	access:private
+atoi_64	atol/main.cc	/^bool atoi_64(char* ptr, int64_t& result)$/;"	f	signature:(char* ptr, int64_t& result)
+b	class_size/main.cc	/^    static int b;$/;"	m	class:A	file:	access:private
+c	class_size/main.cc	/^    char c;$/;"	m	class:A	file:	access:private
+comp_func	leetcode15/main.cpp	/^static bool comp_func(int i, int j) {$/;"	f	file:	signature:(int i, int j)
+comp_func	leetcode16/main.cpp	/^static bool comp_func(int i, int j) {$/;"	f	file:	signature:(int i, int j)
+comp_func	leetcode56/main.cpp	/^static bool comp_func(Interval a, Interval b) {$/;"	f	file:	signature:(Interval a, Interval b)
+d	class_size/main.cc	/^    int d;$/;"	m	class:A	file:	access:private
+divide	leetcode29/main.cpp	/^    int divide(int dividend, int divisor) {$/;"	f	class:Solution	access:public	signature:(int dividend, int divisor)
+end	leetcode56/main.cpp	/^    int end;$/;"	m	struct:Interval	file:	access:public
+findKth	leetcode4/main.cc	/^    double findKth(vector<int>& nums1, int s1, int e1,$/;"	f	class:Solution	file:	access:private	signature:(vector<int>& nums1, int s1, int e1, vector<int>& nums2, int s2, int e2, int k)
+findMedianSortedArrays	leetcode4/main.cc	/^    double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums1, vector<int>& nums2)
+func	class_size/main.cc	/^    virtual int func(){}$/;"	f	class:A	file:	access:private	signature:()
+func1	class_size/main.cc	/^    virtual int func1(){}$/;"	f	class:A	file:	access:private	signature:()
+func2	class_size/main.cc	/^    virtual int func2(){}$/;"	f	class:A	file:	access:private	signature:()
+func3	class_size/main.cc	/^    static int func3() {$/;"	f	class:A	file:	access:private	signature:()
+generateParenthesis	leetcode22/main.cpp	/^    vector<string> generateParenthesis(int n) {$/;"	f	class:Solution	access:public	signature:(int n)
+generateParenthesis	leetcode22/main.cpp	/^    void generateParenthesis(int left, int right, string s, vector<string>& res) {$/;"	f	class:Solution	access:public	signature:(int left, int right, string s, vector<string>& res)
+isPalindrome	leetcode9/palindrome_number.cpp	/^        bool isPalindrome(int x) {$/;"	f	class:Solution	access:public	signature:(int x)
+isValid	leetcode20/main.cpp	/^    bool isValid(string s) {$/;"	f	class:Solution	access:public	signature:(string s)
+left	tree_level_show/main.cpp	/^     Node*left, *right;$/;"	m	struct:Node	file:	access:public
+longestCommonPrefix	leetcode14/main.cpp	/^        string longestCommonPrefix(vector<string>& strs) {$/;"	f	class:Solution	access:public	signature:(vector<string>& strs)
+main	atol/main.cc	/^int main() {$/;"	f	signature:()
+main	class_size/main.cc	/^int main() {$/;"	f	signature:()
+main	inherit/main.cpp	/^int main() {$/;"	f	signature:()
+main	leetcode11/main.cpp	/^int main() {$/;"	f	signature:()
+main	leetcode14/main.cpp	/^int main(int argc, char** argv) {$/;"	f	signature:(int argc, char** argv)
+main	leetcode15/main.cpp	/^int main() {$/;"	f	signature:()
+main	leetcode16/main.cpp	/^int main() {$/;"	f	signature:()
+main	leetcode19/main.cpp	/^int main() {$/;"	f	signature:()
+main	leetcode20/main.cpp	/^int main() {$/;"	f	signature:()
+main	leetcode22/main.cpp	/^int main() {$/;"	f	signature:()
+main	leetcode26/main.cpp	/^int main() {$/;"	f	signature:()
+main	leetcode27/main.cpp	/^int main() {$/;"	f	signature:()
+main	leetcode28/main.cpp	/^int main() {$/;"	f	signature:()
+main	leetcode29/main.cpp	/^int main() {$/;"	f	signature:()
+main	leetcode33/main.cpp	/^int main() {$/;"	f	signature:()
+main	leetcode34/main.cpp	/^int main() {$/;"	f	signature:()
+main	leetcode4/main.cc	/^int main()$/;"	f	signature:()
+main	leetcode46/main.cpp	/^int main() {$/;"	f	signature:()
+main	leetcode53/main.cpp	/^int main() {$/;"	f	signature:()
+main	leetcode54/main.cpp	/^int main() {$/;"	f	signature:()
+main	leetcode56/main.cpp	/^int main() {$/;"	f	signature:()
+main	leetcode9/palindrome_number.cpp	/^int main() {$/;"	f	signature:()
+main	max_min_num/main.cpp	/^int main() {$/;"	f	signature:()
+main	sqrt1/main.cpp	/^int main() {$/;"	f	signature:()
+main	sqrt1/test.cpp	/^int main() {$/;"	f	signature:()
+main.cc	atol/main.cc	1;"	F
+main.cc	class_size/main.cc	1;"	F
+main.cc	leetcode4/main.cc	1;"	F
+main.cpp	inherit/main.cpp	1;"	F
+main.cpp	leetcode11/main.cpp	1;"	F
+main.cpp	leetcode14/main.cpp	1;"	F
+main.cpp	leetcode15/main.cpp	1;"	F
+main.cpp	leetcode16/main.cpp	1;"	F
+main.cpp	leetcode19/main.cpp	1;"	F
+main.cpp	leetcode20/main.cpp	1;"	F
+main.cpp	leetcode22/main.cpp	1;"	F
+main.cpp	leetcode26/main.cpp	1;"	F
+main.cpp	leetcode27/main.cpp	1;"	F
+main.cpp	leetcode28/main.cpp	1;"	F
+main.cpp	leetcode29/main.cpp	1;"	F
+main.cpp	leetcode33/main.cpp	1;"	F
+main.cpp	leetcode34/main.cpp	1;"	F
+main.cpp	leetcode46/main.cpp	1;"	F
+main.cpp	leetcode53/main.cpp	1;"	F
+main.cpp	leetcode54/main.cpp	1;"	F
+main.cpp	leetcode56/main.cpp	1;"	F
+main.cpp	max_min_num/main.cpp	1;"	F
+main.cpp	sqrt1/main.cpp	1;"	F
+main.cpp	tree_level_show/main.cpp	1;"	F
+maxArea	leetcode11/main.cpp	/^        int maxArea(vector<int>& height) {$/;"	f	class:Solution	access:public	signature:(vector<int>& height)
+maxSubArray	leetcode53/main.cpp	/^    int maxSubArray(vector<int>& nums) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums)
+max_min	max_min_num/main.cpp	/^void max_min(int a[], int begin, int end, int *max, int *min) {$/;"	f	signature:(int a[], int begin, int end, int *max, int *min)
+merge	leetcode56/main.cpp	/^    vector<Interval> merge(vector<Interval>& intervals) {$/;"	f	class:Solution	access:public	signature:(vector<Interval>& intervals)
+my_sqrt	sqrt1/main.cpp	/^float my_sqrt(float n) \/\/用二分法 $/;"	f	signature:(float n)
+my_sqrt	sqrt1/test.cpp	/^double my_sqrt(double n) \/\/用二分法 $/;"	f	signature:(double n)
+next	leetcode19/main.cpp	/^    ListNode *next;$/;"	m	struct:ListNode	file:	access:public
+palindrome_number.cpp	leetcode9/palindrome_number.cpp	1;"	F
+permute	leetcode46/main.cpp	/^    vector<vector<int> > permute(vector<int>& nums) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums)
+permute	leetcode46/main.cpp	/^    void permute(vector<int> nums, vector<int> curr, vector<vector<int> >& res) {$/;"	f	class:Solution	access:public	signature:(vector<int> nums, vector<int> curr, vector<vector<int> >& res)
+removeDuplicates	leetcode26/main.cpp	/^    int removeDuplicates(vector<int>& nums) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums)
+removeElement	leetcode27/main.cpp	/^    int removeElement(vector<int>& A, int elem) {$/;"	f	class:Solution	access:public	signature:(vector<int>& A, int elem)
+removeNthFromEnd	leetcode19/main.cpp	/^    ListNode* removeNthFromEnd(ListNode* head, int n) {$/;"	f	class:Solution	access:public	signature:(ListNode* head, int n)
+right	tree_level_show/main.cpp	/^     Node*left, *right;$/;"	m	struct:Node	file:	access:public
+search	leetcode33/main.cpp	/^    int search(vector<int>& nums, int target) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums, int target)
+searchRange	leetcode34/main.cpp	/^    vector<int> searchRange(vector<int>& nums, int target) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums, int target)
+spiralOrder	leetcode54/main.cpp	/^    vector<int> spiralOrder(vector<vector<int>>& matrix) {$/;"	f	class:Solution	access:public	signature:(vector<vector<int>>& matrix)
+start	leetcode56/main.cpp	/^    int start;$/;"	m	struct:Interval	file:	access:public
+strStr	leetcode28/main.cpp	/^    int strStr(string haystack, string needle) {   $/;"	f	class:Solution	access:public	signature:(string haystack, string needle)
+test	inherit/main.cpp	/^    void test() {$/;"	f	class:A	access:public	signature:()
+test	inherit/main.cpp	/^    void test() {$/;"	f	class:B	access:public	signature:()
+test.cpp	sqrt1/test.cpp	1;"	F
+threeSum	leetcode15/main.cpp	/^        vector<vector<int> > threeSum(vector<int>& nums) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums)
+threeSumClosest	leetcode16/main.cpp	/^        int threeSumClosest(vector<int>& nums, int target) {$/;"	f	class:Solution	access:public	signature:(vector<int>& nums, int target)
+val	leetcode19/main.cpp	/^    int val;$/;"	m	struct:ListNode	file:	access:public
+val	tree_level_show/main.cpp	/^     char val; $/;"	m	struct:Node	file:	access:public
+~A	class_size/main.cc	/^    ~A(){};$/;"	f	class:A	file:	access:private	signature:()
